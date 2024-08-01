@@ -1,0 +1,177 @@
+{
+    "mNodes": {
+        "1": {
+            "Key": 1,
+            "LocationType": 10,
+            "SmartLocationType": null,
+            "Store": "Simple",
+            "StorageLocation": "1",
+            "Height": 0.0,
+            "MaxWeight": 0.0,
+            "DistanceFromGround": 0.0,
+            "IsOccupied": false,
+            "PossibleContainerTypes": [],
+            "SensorStatus": null
+        },
+        "2": {
+            "Key": 2,
+            "LocationType": 10,
+            "SmartLocationType": null,
+            "Store": "Simple",
+            "StorageLocation": "2",
+            "Height": 0.0,
+            "MaxWeight": 0.0,
+            "DistanceFromGround": 0.0,
+            "IsOccupied": false,
+            "PossibleContainerTypes": [],
+            "SensorStatus": null
+        }
+        
+    },
+    "mCarrierNodes": {
+        "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23": {
+            "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+            "Carrier": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+        }
+    },
+    "mEdges": [
+        {
+            "EdgeId": {
+                "Item1": "Simple-1",
+                "Item2": "Virtual location for Carrier Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Item3": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "SourceNode": {
+                "Key": 1,
+                "LocationType": 10,
+                "SmartLocationType": null,
+                "Store": "Simple",
+                "StorageLocation": "1",
+                "Height": 0.0,
+                "MaxWeight": 0.0,
+                "DistanceFromGround": 0.0,
+                "IsOccupied": false,
+                "PossibleContainerTypes": [],
+                "SensorStatus": null
+            },
+            "TargetNode": {
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Carrier": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "Carrier": {
+                "Type": 1,
+                "DisplayName": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Description": null,
+                "IsLocked": false,
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "Cost": 1,
+            "TransportType": 1,
+            "TransportActivationLevel": 20
+        },
+        {
+            "EdgeId": {
+                "Item1": "Simple-2",
+                "Item2": "Virtual location for Carrier Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Item3": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "SourceNode": {
+                "Key": 2,
+                "LocationType": 10,
+                "SmartLocationType": null,
+                "Store": "Simple",
+                "StorageLocation": "2",
+                "Height": 0.0,
+                "MaxWeight": 0.0,
+                "DistanceFromGround": 0.0,
+                "IsOccupied": false,
+                "PossibleContainerTypes": [],
+                "SensorStatus": null
+            },
+            "TargetNode": {
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Carrier": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "Carrier": {
+                "Type": 1,
+                "DisplayName": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Description": null,
+                "IsLocked": false,
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "Cost": 1,
+            "TransportType": 1,
+            "TransportActivationLevel": 20
+        },
+        {
+            "EdgeId": {
+                "Item1": "Virtual location for Carrier Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Item2": "Simple-1",
+                "Item3": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "SourceNode": {
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Carrier": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "TargetNode": {
+                "Key": 1,
+                "LocationType": 10,
+                "SmartLocationType": null,
+                "Store": "Simple",
+                "StorageLocation": "1",
+                "Height": 0.0,
+                "MaxWeight": 0.0,
+                "DistanceFromGround": 0.0,
+                "IsOccupied": false,
+                "PossibleContainerTypes": [],
+                "SensorStatus": null
+            },
+            "Carrier": {
+                "Type": 1,
+                "DisplayName": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Description": null,
+                "IsLocked": false,
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "Cost": 1,
+            "TransportType": 1,
+            "TransportActivationLevel": 20
+        },
+        {
+            "EdgeId": {
+                "Item1": "Virtual location for Carrier Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Item2": "Simple-2",
+                "Item3": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "SourceNode": {
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Carrier": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "TargetNode": {
+                "Key": 2,
+                "LocationType": 10,
+                "SmartLocationType": null,
+                "Store": "Simple",
+                "StorageLocation": "2",
+                "Height": 0.0,
+                "MaxWeight": 0.0,
+                "DistanceFromGround": 0.0,
+                "IsOccupied": false,
+                "PossibleContainerTypes": [],
+                "SensorStatus": null
+            },
+            "Carrier": {
+                "Type": 1,
+                "DisplayName": "Carrier_9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23",
+                "Description": null,
+                "IsLocked": false,
+                "Id": "9dd7d19f-6e84-46e1-b1d4-648bbe5fcc23"
+            },
+            "Cost": 1,
+            "TransportType": 1,
+            "TransportActivationLevel": 20
+        }
+    ],
+    "EdgesCount": 4,
+    "NodesCount": 2
+}
