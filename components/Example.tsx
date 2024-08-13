@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import GenerateExampleButton from "./GenerateExampleButton";
-import exampleData from "@/constants/routegraph.json";
+import exampleData from "@/constants/routegraphv3.json";
 import GraphVisualiser from "./GraphVisualiser";
 import { JsonView, allExpanded, defaultStyles } from "react-json-view-lite";
 import "react-json-view-lite/dist/index.css";
